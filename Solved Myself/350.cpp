@@ -72,13 +72,14 @@ public:
             i++;  j++;
         }
 
-        // My failed logical construct
+        // My failed way unnecessary checks will be required
         // if(nums1[i]!=nums2[j])
         // {
         //     if(nums1[i]==nums1[i-1] && i>=1) i++;
         //     if(nums2[j]==nums2[j-1] && j>=1) j++;
         // }
 
+        // An easier way
         else if (nums1[i] < nums2[j]) {
                 i++;
             } else {
