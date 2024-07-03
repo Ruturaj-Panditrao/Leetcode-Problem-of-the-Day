@@ -1,4 +1,5 @@
 // 3 July 2024
+// Asked in Google
 // https://leetcode.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves/description/
 
 // Comment :
@@ -29,6 +30,7 @@ public:
 // Approach 2 : Optimized
 // Time Complexity : O(N)+O(nN logk)
 // Space Complexity : O(logK)+O(N) if the same Array is used else O(8) if a new array is used to save only the first minimum 4 and last minimum 4 elements
+// By default C++ Priority Queue is a MaxHeap
 
 class Solution {
 public:
